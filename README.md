@@ -1,7 +1,7 @@
 # Sticky notes web app
 A real-time, single-page web application where any user can add a note, and it instantly appears on the board for everyone. Built using HTML, CSS, JavaScript, and a WebSocket server for live updates.
 
-![board-screenshot](front\assets\main-preview.gif)
+![board-screenshot](https://github.com/ohresha/web-sticky-notes/blob/main/front/assets/main-preview.gif)
 
 ## Setup
 1. **Clone and install packages**
