@@ -1,0 +1,11 @@
+{
+    "private": true,
+    "workspaces": [
+        "front",
+        "server"
+    ],
+    "scripts": {
+        "start": "npm run start --workspace=server",
+        "start:front": "npm run start --workspace=front"
+    }
+}

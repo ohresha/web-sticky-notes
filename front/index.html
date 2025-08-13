@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="modal-note">
+        <div id="modal-note__close" onclick="closeModalNote()">✖</div>
+        <div id="modal-note__field" contenteditable="true"></div>
+        <button id="modal-note__btn" onclick="submitMessage()">Stick a note</button>
+    </div>
+    <div id="board-wrapper">
+        <section id="board"><img src="assets/board.png" alt="board" draggable="false"></section>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

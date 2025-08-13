@@ -1,0 +1,12 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "http-server -p 5500"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "ws": "^8.18.3"
+  }
+}
